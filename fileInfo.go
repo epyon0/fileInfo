@@ -8,7 +8,7 @@ type FileSignature struct {
 	Description   string
 }
 
-var signatureMap map[uint]FileSignature = map[uint]FileSignature{
+var SignatureMap map[uint]FileSignature = map[uint]FileSignature{
 	0: {Extension: []string{},
 		Offset:      0,
 		Signatures:  [][]byte{{0x23, 0x21}},
